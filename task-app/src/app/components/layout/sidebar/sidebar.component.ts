@@ -9,8 +9,8 @@ export class SidebarComponent {
 
   toggleSideBar() {
     // vai buscar a o div da side bar e do botao
-    let sidebar = document.querySelector(".sidebar");
-    let closeBtn = document.querySelector("#btn");
+    const sidebar = document.querySelector(".sidebar");
+    const closeBtn = document.querySelector("#btn");
 
     // abre ou fecha a side bar
     sidebar.classList.toggle("open");

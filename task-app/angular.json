@@ -69,8 +69,7 @@
               "browserTarget": "task-app:build:production"
             },
             "development": {
-              "browserTarget": "task-app:build:development",
-              "proxyConfig": "src/proxy.conf.json"
+              "browserTarget": "task-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,11 +98,23 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "54198a37-8595-43c8-b9de-4d253aa0edad"
+    "analytics": "54198a37-8595-43c8-b9de-4d253aa0edad",
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
