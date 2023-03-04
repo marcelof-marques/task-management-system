@@ -269,7 +269,7 @@
     z-index: 2;
 }
 
-.sidebar.open~.home-section {
+.sidebar.open~div>.home-section {
     left: 250px;
     width: calc(100% - 250px);
 }
@@ -286,4 +286,8 @@
     .sidebar li .tooltip {
         display: none;
     }
+}
+
+ul {
+    padding-left: 0;
 }

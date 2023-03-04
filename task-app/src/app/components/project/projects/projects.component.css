@@ -1,0 +1,18 @@
+.home-section {
+    overflow: hidden;
+}
+
+.content-container {
+    margin: 18px 18px;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.75rem;
+}
+
+.content .title {
+    font-size: 1rem;
+
+}
