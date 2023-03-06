@@ -1,26 +1,15 @@
 <section class="home-section">
     <div class="text">Projects</div>
     <div class="row content-container">
-        <div class="col-4 no-padding">
-            <div class="content">
-                <div class="title">
-                    <b>Projeto Exemplo</b>
+        <div class="col-4">
+            <div class="col-12 margin-bt" *ngFor="let project of projects$ | async">
+                <div class="content">
+                    <div class="title">
+                        <b>{{ project.name }}</b><br/>
+                        <b></b>
+                    </div>
                 </div>
-            </div>    
-        </div>
-        <div class="col-4 no-padding">
-            <div class="content">
-                <div class="title">
-                    <b>Projeto Exemplo</b>
-                </div>
-            </div>    
-        </div>
-        <div class="col-4 no-padding">
-            <div class="content">
-                <div class="title">
-                    <b>Projeto Exemplo</b>
-                </div>
-            </div>    
+            </div>
         </div>
     </div>
 </section>
