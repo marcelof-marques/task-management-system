@@ -1,11 +1,23 @@
 ﻿namespace TaskManagementSystemAPI.Models
 {
+    /// <summary>
+    /// Tipos de Tarefas
+    /// </summary>
     public class TaskType
     {
+        /// <summary>
+        /// Identificador do Tipo de Tarefa
+        /// </summary>
         public long ID { get; set; }
 
-        public string Name { get; set; }
+        /// <summary>
+        /// Nome do Tipo de Tarefa
+        /// </summary>
+        public string Name { get; set; } = null!;
 
-        public string Description { get; set; }
+        /// <summary>
+        /// Descrição do Tipo de Tarefa
+        /// </summary>
+        public string? Description { get; set; }
     }
 }

@@ -1,14 +1,9 @@
 <section class="home-section">
     <div class="text">Projects</div>
     <div class="row content-container">
-        <div class="col-4">
+        <div class="col-6">
             <div class="col-12 margin-bt" *ngFor="let project of projects$ | async">
-                <div class="content">
-                    <div class="title">
-                        <b>{{ project.name }}</b><br/>
-                        <b></b>
-                    </div>
-                </div>
+                <app-project-container [project]="project"></app-project-container>
             </div>
         </div>
     </div>

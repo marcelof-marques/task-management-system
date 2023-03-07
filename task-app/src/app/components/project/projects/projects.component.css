@@ -6,17 +6,6 @@
     margin: 18px 18px;
 }
 
-.content {
-    background-color: #ffffff;
-    padding: 1rem 1rem 1rem 1rem;
-    border: 2px solid rgb(224, 224, 224);
-    border-radius: 5px;
-}
-
-.content .title {
-    font-size: 1rem;
-}
-
 .margin-bt {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;

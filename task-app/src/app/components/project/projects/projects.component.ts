@@ -19,7 +19,7 @@ export class ProjectsComponent implements OnDestroy {
         console.log(this.projects$);
     }
 
-    /** retorna os projetos e valida se os projetos ja estao guardados numa variavel se nao vai a stream buscar os dados*/
+    /** retorna os projetos e valida se os projetos ja estao guardados numa variavel se nao vai a stream buscar os dados */
     get projects(): Project[] {
         if (this._projects) {
             return this._projects;
