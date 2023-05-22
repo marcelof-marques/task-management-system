@@ -7,6 +7,7 @@ import { SidebarComponent } from './components/layout/sidebar/sidebar.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { ProjectModule } from './components/project/project.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
     declarations: [AppComponent, SidebarComponent],
@@ -16,6 +17,7 @@ import { ProjectModule } from './components/project/project.module';
         NgbModule,
         HttpClientModule,
         ProjectModule,
+        BrowserAnimationsModule,
     ],
     providers: [],
     bootstrap: [AppComponent],
